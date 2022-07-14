@@ -1,0 +1,13 @@
+{
+  "pages": [
+    "pages/index/index"
+  ],
+  "entryPagePath": "pages/index/index",
+  "window": {
+    "navigationBarBackgroundColor": "#FFF",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": ""
+  },
+  "debug": false,
+  "sitemapLocation": "sitemap.json"
+}
