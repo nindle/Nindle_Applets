@@ -1,10 +1,10 @@
 <!--index.wxml-->
 <view class="root">
-  <view bindtap="getImageList">点击</view>
+  <view bindtap="getImageList">点击获取图片</view>
   <view>
 	<view wx:for="{{imageList}}" wx:for-item="item" wx:key="index">
 		<view>{{item.author}}</view>
-		<!-- <image src="{{item.url}}"></image> -->
+		<image src="{{item.download_url}}"></image>
 	</view>
   </view>
 </view>
