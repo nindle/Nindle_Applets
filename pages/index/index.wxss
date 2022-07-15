@@ -1,0 +1,6 @@
+.inquireip {
+  display: flex;
+}
+.input {
+  border: 1rpx solid #ccc;
+}

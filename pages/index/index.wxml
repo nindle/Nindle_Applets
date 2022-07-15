@@ -1,10 +1,21 @@
 <!--index.wxml-->
 <view class="root">
   <view bindtap="getImageList">点击获取图片</view>
+
+
+	<view class="inquireip">
+    <input type="text" class="input" bindinput="bindKeyInput"/> <view bindtap="getIpAddress">查询IP</view>
+  </view>
+
+  <view bindtap="getIpAddress1">点击获取本地IP地址</view>
+
+  <view>邮政编码： {{localIpAddress.cid}}</view>
+  <view>IP地址： {{localIpAddress.cip}}</view>
+  <view>所在城市： {{localIpAddress.cname}}</view>
   <view>
-	<view wx:for="{{imageList}}" wx:for-item="item" wx:key="index">
+	<!-- <view wx:for="{{imageList}}" wx:for-item="item" wx:key="index">
 		<view>{{item.author}}</view>
 		<image src="{{item.download_url}}"></image>
-	</view>
+	</view> -->
   </view>
 </view>
