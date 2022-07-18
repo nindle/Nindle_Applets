@@ -1,5 +1,79 @@
 <!--index.wxml-->
 <view class="root">
+  <view class="head">
+    <view class="item">
+      <image class="pic"></image>
+      <view class="name">123</view>
+    </view>
+    <view class="item">
+      <image class="pic"></image>
+      <view class="name">123</view>
+    </view>
+    <view class="item">
+      <image class="pic"></image>
+      <view class="name">123</view>
+    </view>
+    <view class="item">
+      <image class="pic"></image>
+      <view class="name">123</view>
+    </view>
+    <view class="item">
+      <image class="pic"></image>
+      <view class="name">123</view>
+    </view>
+    <view class="item">
+      <image class="pic"></image>
+      <view class="name">123</view>
+    </view>
+    <view class="item">
+      <image class="pic"></image>
+      <view class="name">123</view>
+    </view>
+    <view class="item">
+      <image class="pic"></image>
+      <view class="name">123</view>
+    </view>
+  </view>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   <view bindtap="getImageList">点击获取图片</view>
 
 
