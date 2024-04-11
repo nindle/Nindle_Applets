@@ -1,0 +1,65 @@
+@mixin flex-center () {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  height: 100%;
+  padding: 40rpx;
+  background: #6eb7ef;
+  .add_task {
+    margin-bottom: 40rpx;
+    .form {
+      height: 100rpx;
+      background: #fefeff;
+      border-radius: 12rpx 12rpx 0 0;
+      @include flex-center();
+      .input {
+        width: 50%;
+        height: 100rpx;
+        padding-left: 30rpx;
+      }
+      .picker {
+        @include flex-center();
+        width: 50%;
+        height: 100rpx;
+        padding: 0 20rpx;
+        border-left: 2rpx solid rgb(131, 131, 131, 0.5);
+        color: #808080;
+      }
+    }
+    
+    .add_btn {
+      @include flex-center();
+      background: #fefeff;
+      height: 100rpx;
+      border-radius: 0 0 12rpx 12rpx;
+      font-size: 34rpx;
+      border-top: 2rpx solid #ccc;
+      color: rgb(95, 94, 94);
+    }
+  }
+  .list {
+    padding: 20rpx;
+    height: calc(100vh - 356rpx);
+    border-radius: 26rpx;
+    background: #f5f5fa;
+    .item {
+      box-shadow: 0rpx 0rpx 16rpx 0rpx rgba(0, 0, 0, 0.09);
+      display: flex;
+      align-items: center;
+      width: 100%;
+      box-sizing: border-box;
+      min-height: 100rpx;
+      border-radius: 20rpx;
+      background: #fefeff;
+      margin-bottom: 30rpx;
+      padding: 10rpx 30rpx;
+      .name {
+        flex: 1;
+        margin-left: 20rpx;
+      }
+    }
+  }
+}
